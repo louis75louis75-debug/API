@@ -1,0 +1,28 @@
+{
+    "reviews": [
+        {
+            "identite": "Jean Dupont",
+            "date": "2024-06-01",
+            "description": "J'ai adoré ce produit, il a dépassé mes attentes !",
+            "rating": 5
+        },
+        {
+            "identite": "Marie Martin",
+            "date": "2024-06-02",
+            "description": "Le produit est correct, mais il y a quelques défauts mineurs.",
+            "rating": 3
+        },
+        {
+            "identite": "Pierre Durand",
+            "date": "2024-06-03",
+            "description": "Produit de qualité moyenne, rien de spécial.",
+            "rating": 2 
+        },
+        {
+            "identite": "Sophie Lambert",
+            "date": "2024-06-04",
+            "description": "Le produit offre un bon rapport qualité-prix, je le recommande.",
+            "rating": 4
+        }
+    ]
+}
