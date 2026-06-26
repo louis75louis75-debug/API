@@ -9,10 +9,10 @@ module.exports = async (req, res) => {
     const newReview = await prisma.review.create({
       data: {
         name,
-        // Si la date est valide, on l'utilise, sinon on met la date du jour
+        
         date: date && !isNaN(Date.parse(date)) ? new Date(date) : new Date(),
         description,
-        // Force la conversion en entier au cas où un texte "5" est envoyé
+        
         rating: parseInt(rating)
       }
     })
