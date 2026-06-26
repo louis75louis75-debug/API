@@ -7,7 +7,7 @@ const argon2 = require('../lib/argon2')
 module.exports = async (req, res) => {
 
   
-  const to = 'louis75louis75@gmail.com'
+  const to = 'test'
   const subject = 'Test Email'
   const text = `This is a test email with variable.`
 
